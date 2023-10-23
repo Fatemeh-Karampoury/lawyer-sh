@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+*{
+    font-size: 20px;
+    
+    list-style: none;
+    text-align: center;
+}
+.body {
+   
+}
+
+@font-face {
+    font-family: "B_nazanin";
+    src: url(B\ Nazanin.ttf);   
+     }
+
+  
+     .header {
+        position: fixed;
+        display: block;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        box-shadow: 0px 1px 3px var(--cinzaBorda);
+        z-index: 10;
+      
+    }
+    
+    .navbar{
+        background: #0c08d1dc;
+        text-align: center;
+       display: flex;
+       font-family:bnazanin;
+    
+    }
+
+      
+      .dropbtn {
+     
+        overflow: hidden;
+      
+      
+      }
+    
+    
+    .logo{
+        
+        width: 250px;
+        height:auto;
+    }
+    
+    
+
+
+
+.wcu-section {
+    background-color: white;
+    font-family:"B_nazanin";
+    font-size: 20px;
+    box-shadow:black;
+    text-align: center;
+  
+
+}
+
+.wcu-section-heading {
+    color: #010102;
+    font-family:"B_nazanin";
+    font-size: 32px;
+    font-weight: 700;
+   
+
+
+}
+
+
+
+.wcu-section .btn{
+    color:#0c08d1dc ;
+    size: 50px 25px;
+}
+
+.wcu-section .btn:hover{
+    background-color: #0c08d1dc;
+    color: white;
+}
+
+.wcu-section-description {
+    color: #030405;
+    font-family:"B_nazanin";
+    font-size: 20px;
+    
+
+
+}
+
+.wcu-card {
+    
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e5eaf4;
+    border-radius: 16px;
+    line-height: 45px;
+  
+    
+
+}
+
+.wcu-card-image {
+    width: 380px;
+    height: 300px;
+    border-radius: 5%;
+    
+    
+}
+
+.wcu-card-title {
+    color: #020303;
+    font-family:"B_nazanin";
+    font-size: 22px;
+    font-weight: 500;
+    
+}
+
+.wcu-card-description {
+    color: #000000;
+    font-family:"B_nazanin";
+    font-size: 16px;
+    
+}
+
+.wcu-section .fw-bold{
+text-align: right;
+}
+
+
+
+
+.wcu-section .img-fluid{
+height: 500px;
+width: 1200px;
+shape-image-threshold: initial;
+border-radius: 50px;
+}
+
+
+
